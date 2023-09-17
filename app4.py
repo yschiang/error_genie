@@ -98,15 +98,11 @@ def main():
 
     # Supervise user input
     title = st.text_input("Title")
-    st.write(title)
     msg = st.text_area("Error Message")
-    st.write(msg)
     if st.button("Submit", type="primary") and title and msg:
 
         response = build_chain(llm, title, msg)
-        json.loads(response)
-
-        st.json()
+        st.json(json.loads(response))
 
     with st.expander('Message History'):
         st.info(memory.buffer)
