@@ -1,6 +1,7 @@
-# Welcome to Streamlit!
+This repo is cloned from 
+https://medium.com/@daydreamersjp/implementing-local-chatgpt-using-streamlit-3228bfab8ae7
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire. :heart:
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+app3.py
+Source: https://medium.com/p/a282a71b03a3
+Very good SequentialKey intro at https://www.youtube.com/watch?v=yeSv2S9Wc64
